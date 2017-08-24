@@ -23,7 +23,7 @@ class Board extends Component {
 
 
   getTrains(){
-    axios.get('https://depart-server.herokuapp.com')
+    axios.get('/departures')
     .then(response => {
 
       let filteredTrains = response.data.filter(train => train.Origin === this.state.selectedStation);
