@@ -41,9 +41,6 @@ class Board extends Component {
     })
     .catch(error => {
       console.log(error);
-    })
-    .then(() => {
-      console.log("fetched...")
     });
   }
 
