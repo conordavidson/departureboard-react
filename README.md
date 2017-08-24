@@ -6,4 +6,4 @@ Schedule updates every 10 seconds.
 
 By Conor Davidson
 
-This app is live at: https://depart-board.herokuapp.com/
+This app is live at: https://departureboard-react.herokuapp.com/
